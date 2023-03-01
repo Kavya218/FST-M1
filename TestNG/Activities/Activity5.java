@@ -1,6 +1,7 @@
 public class Activity5 {
     WebDriver driver;
     //Include alwaysRun property on the @BeforeTest
+    
     //to make sure the page opens
     @BeforeTest(alwaysRun = true)
     public void beforeMethod() {
