@@ -8,6 +8,7 @@ public class Activity7 {
         wait = new WebDriverWait(driver, 10);
         
         //Open browser
+        
         driver.get("https://www.training-support.net/selenium/login-form");
     }
     
