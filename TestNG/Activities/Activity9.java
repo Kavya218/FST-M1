@@ -3,6 +3,7 @@ public class Activity9 {
 
     @BeforeClass
     public void setUp() {
+        
         //Create a new instance of the Firefox driver
         driver = new FirefoxDriver();
 
