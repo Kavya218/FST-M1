@@ -8,6 +8,7 @@ public class Activity10 {
         builder = new Actions(driver);
 
         //Open browser
+        
         driver.get("https://www.training-support.net/selenium/sliders");
     }
 
