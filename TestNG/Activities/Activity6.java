@@ -3,6 +3,7 @@ public class Activity6 {
     WebDriverWait wait;
 
     @BeforeClass
+    
     public void beforeClass() {
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 10);
