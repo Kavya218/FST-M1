@@ -2,6 +2,7 @@ public class Activity2 {
     WebDriver driver;
     
     @BeforeTest
+    
     public void beforeMethod() {
         //Create a new instance of the Firefox driver
         driver = new FirefoxDriver();
