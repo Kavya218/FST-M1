@@ -6,6 +6,7 @@ public class Activity3 {
         driver = new FirefoxDriver();
 
         //Open browser
+        
         driver.get("https://www.training-support.net/selenium/login-form");
     }
 
