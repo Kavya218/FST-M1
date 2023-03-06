@@ -2,6 +2,7 @@ public class GoogleSearchSteps {
     WebDriver driver;
     WebDriverWait wait;
     
+    
     @Given("^User is on Google Home Page$")
     public void userIsOnGooglePage() throws Throwable {
         //Create a new instance of the Firefox driver
