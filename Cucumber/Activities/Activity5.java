@@ -2,6 +2,7 @@ public class LoginTestSteps {
     WebDriver driver;
     WebDriverWait wait;
     
+    
     @Given("^User is on Login page$")
     public void loginPage() {
         //Setup instances
