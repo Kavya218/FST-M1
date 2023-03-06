@@ -1,6 +1,7 @@
 @activity1_3
 Feature: Testing with Tags
 
+
 @SimpleAlert @SmokeTest
 Scenario: Test for Simple Alert
     Given User is on the page 
