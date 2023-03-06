@@ -22,6 +22,7 @@ public class LoginSteps {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
     
+    
     @When("^User enters \"(.*)\" and \"(.*)\"$")
     public void user_enters_and(String username, String password) throws Throwable {
         //Enter username from Feature file
