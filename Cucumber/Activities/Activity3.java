@@ -2,6 +2,7 @@ public class AlertTestSteps {
     WebDriver driver;
     WebDriverWait wait;
     Alert alert;
+    
 
     @Given("^User is on the page$")
     public void openPage() {
