@@ -11,6 +11,7 @@ public class Activity3 {
         caps.setCapability("appActivity", ".Calculator");
         caps.setCapability("noReset", true);
 
+        
         // Instantiate Appium Driver
         URL appServer = new URL("http://0.0.0.0:4723/wd/hub");
         driver = new AndroidDriver<MobileElement>(appServer, caps);
