@@ -5,6 +5,7 @@ public class Activity6 {
     @BeforeClass
     public void beforeClass() throws MalformedURLException {
         // Set the Desired Capabilities
+        
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("deviceName", "<device name>");
         caps.setCapability("platformName", "Android");
