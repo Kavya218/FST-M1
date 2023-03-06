@@ -1,6 +1,7 @@
 public class Activity2 {
     WebDriverWait wait;
     AppiumDriver<MobileElement> driver = null;
+    
 
     @BeforeTest
     public void setup() throws MalformedURLException {
